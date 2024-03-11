@@ -1,0 +1,29 @@
+#app-container {
+    width: 100vw;
+    height: 100vh;
+
+    cursor: default;
+}
+#app-drag-box {
+    position: absolute;
+    background-color: white;
+    /* height: 100vh; */
+}
+
+#app-bottom-container {
+    position: absolute;
+
+    bottom: 2rem;
+    margin: auto 0;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+}
+
+.now-length {
+    position: absolute;
+
+    text-align: right;
+    user-select: none;
+}
