@@ -4,8 +4,8 @@
     @mousemove="mouseMoving"
     @mouseup="logClickUp"
     id="app-container">
-        <span class="now-length" :style="[nowLengthStyle.x, nowLengthCommon]">{{ nowLength.x }}</span>
-        <span class="now-length" :style="[nowLengthStyle.y, nowLengthCommon]">{{ nowLength.y }}</span>
+        <span class="now-length" :style="[nowLengthStyle.x, nowLengthCommon]">{{ nowLength.y }}</span>
+        <span class="now-length" :style="[nowLengthStyle.y, nowLengthCommon]">{{ nowLength.x }}</span>
 
         <div id="app-drag-box" :style="dragBoxStyle"></div>
     </div>
